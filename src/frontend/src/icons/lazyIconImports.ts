@@ -164,6 +164,7 @@ export const lazyIconsMapping = {
     import("@/icons/Langwatch").then((mod) => ({ default: mod.LangwatchIcon })),
   LMStudio: () =>
     import("@/icons/LMStudio").then((mod) => ({ default: mod.LMStudioIcon })),
+  VLLM: () => import("@/icons/vLLM").then((mod) => ({ default: mod.VLLMIcon })),
   Maritalk: () =>
     import("@/icons/Maritalk").then((mod) => ({ default: mod.MaritalkIcon })),
   Mcp: () => import("@/icons/MCP").then((mod) => ({ default: mod.McpIcon })),
